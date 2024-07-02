@@ -6,7 +6,7 @@ provider:
   runtime: java17
 
 package:
-  artifact: build/distributions/aws-java-simple-http-endpoint.zip
+  artifact: target/aws-java-simple-http-endpoint.jar
 
 functions:
   currentTime:
